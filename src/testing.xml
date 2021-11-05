@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CUCUMBERSELENIUM">
+    <test name="Login.feature">
+        <parameter name="email" value="ayla_burs_13@gmail.com"/>
+        <parameter name="password" value="asdcvgyujmhg"/>
+        <classes>
+            <class name="com.gt.cucumber.web.step.LoginStep"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
